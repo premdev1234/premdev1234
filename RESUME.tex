@@ -1,0 +1,206 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[top=0.75in, bottom=0.2in, left=0.35in, right=0.35in]{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{palatino}
+\usepackage{tabularx}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+
+\definecolor{mygrey}{gray}{0.82}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.99\textwidth}{\textbf{#1 \vphantom{p^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \
+\end{tabular*}\vspace{-8pt}}
+
+\begin{document}
+
+\begin{table}[t!]
+\begin{tabularx}{\textwidth}{@{}lXr@{}}
+\begin{minipage}{0.15\textwidth}
+    \includegraphics[height=0.8in]{IIT-Jodhpur.jpg}
+\end{minipage} &
+\begin{minipage}{0.6\textwidth}
+    \textbf{\Large Prem Dev}\\
+    2nd Year Undergraduate\\
+    \textit{Bioscience and Bioengineering}
+\end{minipage} &
+\begin{minipage}{0.25\textwidth}
+    \raggedleft
+    \href{mailto:b22bb047@iitj.ac.in}{\textbf{Email: b22bb047@iitj.ac.in}}\\
+    \textbf{Phone: +91 7065355926}\\
+    \href{https://github.com/premdev1234}{\includegraphics[height=0.2in]{github.png}}
+    \href{https://www.linkedin.com/in/prem-dev-4a2585186/}{\includegraphics[height=0.2in]{linkedin.png}}
+    \href{https://leetcode.com/u/Prem23_04/}{\includegraphics[height=0.2in]{leetcode.png}}
+    \href{https://www.kaggle.com/premdevb22bb047}{\includegraphics[height=0.2in]{kaggle.png}}
+    
+\end{minipage}
+\end{tabularx}
+\end{table}
+
+
+
+ 
+
+\setlength{\tabcolsep}{12 pt}
+\begin{table}
+% setlength{\tabcolsep}{05pt} % Adjust cell padding
+\renewcommand{\arraystretch}{1.25} % Adjust row height
+
+% Heading for Academic Qualifications Section
+\resheading{ACADEMIC QUALIFICATIONS}
+
+\noindent
+\begin{tabular}{|p{2.5 cm}|p{5 cm}|p{6.5 cm}|p{2cm}|}
+    \hline
+    \textbf{Year} & \textbf{Degree/Certificate} & \textbf{Institute} & \textbf{CGPA/\%} \\ \hline
+    2022 -- Present & B.Tech & Indian Institute of Technology, Jodhpur & 6.96 \\ \hline
+    2021 & Senior Secondary & CBSE Board & 90.00\% \\ \hline
+    2019 & Secondary & CBSE Board & 89.6\% \\ \hline
+\end{tabular}
+\end{table}
+
+
+% \noindent \resheading{\textbf{B.TECH THESIS \& SEMINAR}}\\[-0.3cm]
+% \begin{itemize}[noitemsep,nolistsep]
+% \item \textbf{Thesis title} \\
+% \emph{(B.Tech Project | Guide: \textbf{Prof. XYZ})} \hfill \emph{(June'20-Present)}\\
+%     % \begin{itemize}[noitemsep,nolistsep]
+%  \textbf{Current work:}\\[-0.5cm]
+%     \begin{itemize}[noitemsep,nolistsep]
+%         \item Description point 1 
+%         \item Description point 2
+%     \end{itemize}
+% \textbf{Future work:}\\[-0.5cm]
+%     \begin{itemize}[noitemsep,nolistsep]
+%         \item Description point 1
+%         \item Description point 2
+%     \end{itemize} 
+    % \end{itemize}
+% \item \textbf{Seminar Title} \\
+% \emph{(M.Tech Seminar | Guide: \textbf{Prof. XYZ})} \hfill \emph{(Jan'20-May'20)}
+%     \begin{itemize}[noitemsep,nolistsep]
+%     \item Description point 1
+%     \item Description point 2
+%     \end{itemize}
+
+% \end{itemize}
+
+\noindent
+\resheading{\textbf{RELEVANT COURSES}}\\[-0.4cm]
+\begin{itemize}
+\setlength\itemsep{-0.4em}
+\item \textbf{Mathematics}: Linear Algebra, Multi-Variable Calculus, Discrete Maths, Probability, Statistics, Game Theory
+\item \textbf{Computer Science}: ICS, Intro to Machine Learning, Data Structures and Algorithms, Time Series, Specialization in Deep Learning (*Coursera)
+\item \textbf{Finance}: Financial Markets by Yale
+\end{itemize}
+
+\noindent
+\resheading{\textbf{COURSE PROJECTS} }\\[-0.3cm]
+\begin{itemize}[noitemsep,nolistsep]
+\item \textbf{Prototype for SSO for IITJ}, \emph{(Sep 23 - Dec. 23)}\hfill \\
+\textbf{Mentor:} {Jayanta Borthakur, Manager (ICT) - Networking, IIT Jodhpur}
+\begin{itemize}[noitemsep,nolistsep]
+    \item \textbf{Description:} Developed a prototype for Single Sign-On (SSO) at IIT Jodhpur.
+    \item \textbf{Technology Used:} Keycloak for Identity and Access Management (IAM), mini Orange for SSO integration.
+    \item \textbf{Role and Contributions:} Implemented and tested the SSO system to streamline user authentication across various platforms at IIT Jodhpur.
+\end{itemize}
+
+\item \textbf{Consensus-based node joining payment channel network}, \emph{(Feb 2024 - Current)}\hfill \\
+\textbf{Mentor:} {Prof. Awathare Nitin Niranjan, Department of Computer Science \& Engineering, IIT Jodhpur}
+\begin{itemize}[noitemsep,nolistsep]
+    \item \textbf{Description:} The project focuses on optimizing the payment channel network by ensuring secure and efficient node joining processes in the Lightning Network (layer 2 payment protocol on top of Bitcoin).
+    \item \textbf{Technology Used:} Bitcoin protocol, Lightning Network.
+    \item \textbf{Role and Contributions:} Implementing algorithms to optimize routing and balance network traffic, ensuring efficient payment processing and secure, stable node joining.
+\end{itemize}
+
+\item \textbf{Histopathologic Cancer Detection using Machine Learning Techniques}, \emph{(Aug'23 - Oct'23)}\hfill \\
+\textbf{Mentor:} {Prof. Avinash Sharma, Department of Computer Science \& Engineering, IIT Jodhpur}
+\begin{itemize}[noitemsep,nolistsep]
+    \item \textbf{Description:} Implemented machine learning models for histopathologic cancer detection using Python and libraries such as NumPy, Pandas, OpenCV, Matplotlib, and PyTorch.
+    \item \textbf{Role and Contributions:} Developed and trained a Convolutional Neural Network (CNN) and Random Forest (RF) model for image classification tasks. Evaluated model performance using accuracy, precision, recall, and F1 score. Utilized Support Vector Machine (SVM) for comparison with CNN and RF models.
+\end{itemize}
+
+\item \textbf{Exam scheduling: A graph coloring Approach}, \emph{(Jul'23 - Nov'23)}\hfill \\
+\textbf{Mentor:} {Prof. Suchetana Chakraborty, Department of Computer Science \& Engineering, IIT Jodhpur}
+\begin{itemize}[noitemsep,nolistsep]
+    \item \textbf{Description:} The project involved designing and implementing an exam scheduling system leveraging graph coloring techniques to optimize scheduling and prevent conflicts.
+    \item \textbf{Technology Used:} Graph theory, algorithm design.
+    \item \textbf{Role and Contributions:} Looking forward to implementing techniques like Genetic Algorithm, Integer Linear Programming (ILP), etc. in future.
+\end{itemize}
+\end{itemize}
+
+
+
+
+
+\noindent
+\resheading{\textbf{TECHNICAL SKILLS}}\\[-0.4cm]
+\begin{itemize}
+  \item \textbf{Programming \& Scripting Languages}: Python, C/C++, Bash\\[-0.6cm]
+  \item \textbf{Technical Skills}: Machine Learning, Deep Learning\\[-0.6cm]
+  \item \textbf{Operating Systems}: Windows, Linux, Mac\\[-0.6cm]
+  \item \textbf{Software and Libraries}: Pandas, Numpy, Matplotlib, Scikit-Learn, PyTorch, TensorFlow\\[-0.6cm]
+  \item \textbf{Soft Skills}: Leadership, Analytical and Strategic thinking, Problem-Solving, Reasoning, Emotional Intelligence
+\end{itemize}
+
+
+
+
+
+
+
+% \noindent
+% \resheading{\textbf{WORK EXPERIENCE \& INTERNSHIPS}}\\[-0.3cm]
+% \begin{itemize}[noitemsep,nolistsep]
+%     \item \textbf{Position held} | \textbf{\emph{Name of university or company}}\hfill \emph{(July’17-Apr'18)}\\[-0.6cm]
+%     \begin{itemize}[noitemsep]
+%         \item Description
+%         \item Description
+%         \item Description\\[-0.5cm]
+%     \end{itemize}
+%     \item \textbf{Position held} | \textbf{\emph{Name of university or company}}\hfill \emph{(July’17-Apr'18)}\\[-0.6cm]
+%     \begin{itemize}[noitemsep]
+%         \item Description\\[-0.5cm]
+%     \end{itemize}
+%     \item \textbf{Position held} | \textbf{\emph{Name of university or company}}\hfill \emph{(July’17-Apr'18)}\\[-0.6cm]
+%     \begin{itemize}[noitemsep]
+%         \item Description\\[-0.5cm]
+%     \end{itemize}
+% \end{itemize}
+
+\noindent
+\resheading{\textbf{POR \& EXTRA-CURRICULARS}}\\[-0.4cm]
+\begin{itemize}
+\setlength\itemsep{-0.4em}
+\item \textbf{Marketing Assistant Head, Prometeo IIT Jodhpur} \hfill \emph{(2023 - Ongoing)}
+\begin{itemize}[noitemsep,nolistsep]
+    \item Facilitated the outreach, onboarding, and collaboration with prominent entities such as EaseMyTrip and Grabon to serve as sponsors and partners for Prometeo.
+    \item Engaged with a diverse array of local business proprietors in Jodhpur to present targeted partnership proposals for Prometeo.
+\end{itemize}
+
+\item Part of Cyber Security Contingent of IIT Jodhpur for \textbf{Inter-IIT Tech meet 12.0}.
+\end{itemize}
+
+
+
+
+
+\end{document}
